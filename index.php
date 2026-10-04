@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio | Desti Nur Wahidah</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="#home">
+        PORT<span>.</span>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              Tentang
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">
+              Keahlian
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              Project
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              Kontak
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section id="home" class="hero">
+
+    <div class="container">
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-7 hero-text">
+
+          <p class="small-title">
+            WELCOME TO MY
+          </p>
+
+          <h1 class="portfolio-title">
+            PORT<span>FOLIO</span>
+          </h1>
+
+          <h2 class="typing-text">
+            Desti Nur Wahidah
+          </h2>
+
+          <p class="hero-role">
+            Mahasiswa Informatika
+          </p>
+
+          <p class="description">
+            Saya tertarik dengan dunia teknologi, desain UI/UX,
+            pengembangan website, dan aplikasi mobile.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-green">
+              Lihat Project
+            </a>
+
+            <a href="#contact" class="btn btn-outline-green">
+              Hubungi Saya
+            </a>
+
+          </div>
+
+          <div class="social-icons">
+
+            <a href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-github"></i>
+            </a>
+
+            <a href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- FOTO -->
+
+        <div class="col-lg-5 text-center">
+
+          <div class="profile-container">
+
+            <div class="profile-circle animated-profile">
+
+              <img
+                src="assets/fotoku.jpeg"
+                alt="Foto Profil Desti"
+              >
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= ABOUT ================= -->
+
+  <section id="about" class="section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <p>
+          TENTANG SAYA
+        </p>
+
+        <h2>
+          About Me
+        </h2>
+
+      </div>
+
+
+      <div class="row align-items-center">
+
+        <!-- NAME TAG FOTO -->
+
+        <div class="col-lg-5 text-center">
+
+          <div
+            class="about-name-tag"
+            id="aboutNameTag"
+          >
+
+            <!-- TALI DIMULAI DARI BATAS HOME / ABOUT -->
+
+            <svg
+              class="name-tag-rope"
+              id="nameTagRope"
+              viewBox="0 0 500 700"
+              preserveAspectRatio="none"
+            >
+
+              <path
+                id="ropePath"
+                d="M250 0 C250 180, 250 350, 250 520"
+              ></path>
+
+            </svg>
+
+
+            <!-- KARTU FOTO -->
+
+            <div
+              class="name-tag-card"
+              id="nameTagCard"
+            >
+
+              <img
+                src="assets/fotoku.jpeg"
+                alt="Foto Desti Nur Wahidah"
+              >
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- ABOUT TEXT -->
+
+        <div class="col-lg-7">
+
+          <h3>
+            Mengenal Saya Lebih Dekat
+          </h3>
+
+          <p>
+            Saya adalah mahasiswa Informatika yang memiliki
+            ketertarikan pada teknologi dan pengembangan aplikasi.
+            Saya senang mempelajari hal baru dan mencoba membuat
+            berbagai project digital.
+          </p>
+
+          <p>
+            Beberapa bidang yang sedang saya pelajari adalah
+            pengembangan website, aplikasi mobile, database,
+            serta desain antarmuka pengguna.
+          </p>
+
+
+          <div class="about-info">
+
+            <div>
+              <strong>Nama</strong>
+              <span>Desti Nur Wahidah</span>
+            </div>
+
+            <div>
+              <strong>Jurusan</strong>
+              <span>Informatika</span>
+            </div>
+
+            <div>
+              <strong>Fokus</strong>
+              <span>Web & Mobile Development</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= SKILLS ================= -->
+
+  <section id="skills" class="section skills-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <p>
+          KEMAMPUAN
+        </p>
+
+        <h2>
+          My Skills
+        </h2>
+
+      </div>
+
+
+      <div class="row g-4">
+
+        <!-- SKILL 1 -->
+
+        <div class="col-md-4">
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
+
+            <h4>
+              Web Development
+            </h4>
+
+            <p>
+              HTML, CSS, JavaScript dan Bootstrap untuk membuat
+              website responsive.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- SKILL 2 -->
+
+        <div class="col-md-4">
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-phone"></i>
+            </div>
+
+            <h4>
+              Mobile Development
+            </h4>
+
+            <p>
+              Membuat aplikasi mobile menggunakan Flutter dan Dart.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- SKILL 3 -->
+
+        <div class="col-md-4">
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-database"></i>
+            </div>
+
+            <h4>
+              Database
+            </h4>
+
+            <p>
+              Memahami penggunaan MySQL dan pengelolaan database.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PROJECTS ================= -->
+
+  <section id="projects" class="section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <p>
+          PROJECT SAYA
+        </p>
+
+        <h2>
+          My Projects
+        </h2>
+
+      </div>
+
+
+      <div class="row g-4">
+
+
+        <!-- PROJECT 1 -->
+
+        <div class="col-md-4">
+
+          <div class="project-card">
+
+            <div class="project-image project-one">
+              <i class="bi bi-laptop"></i>
+            </div>
+
+            <div class="project-content">
+
+              <span>
+                Website
+              </span>
+
+              <h4>
+                Website Rekomendasi Laptop
+              </h4>
+
+              <p>
+                Website yang membantu pengguna menemukan laptop
+                berdasarkan kebutuhan dan budget.
+              </p>
+
+              <a
+                href="#"
+                onclick="showProject(1); return false;"
+              >
+                Lihat Project
+                <i class="bi bi-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="col-md-4">
+
+          <div class="project-card">
+
+            <div class="project-image project-two">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+
+            <div class="project-content">
+
+              <span>
+                Mobile App
+              </span>
+
+              <h4>
+                Aplikasi Wisata Desa
+              </h4>
+
+              <p>
+                Aplikasi informasi wisata yang menampilkan destinasi
+                dan informasi desa.
+              </p>
+
+              <a
+                href="#"
+                onclick="showProject(2); return false;"
+              >
+                Lihat Project
+                <i class="bi bi-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+
+        <div class="col-md-4">
+
+          <div class="project-card">
+
+            <div class="project-image project-three">
+              <i class="bi bi-recycle"></i>
+            </div>
+
+            <div class="project-content">
+
+              <span>
+                UI/UX
+              </span>
+
+              <h4>
+                Aplikasi Monitoring Sampah
+              </h4>
+
+              <p>
+                Konsep aplikasi untuk membantu proses monitoring
+                dan pengelolaan sampah.
+              </p>
+
+              <a
+                href="#"
+                onclick="showProject(3); return false;"
+              >
+                Lihat Project
+                <i class="bi bi-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PROJECT MODAL ================= -->
+
+  <div
+    class="project-modal"
+    id="projectModal"
+  >
+
+    <div class="project-modal-box">
+
+      <button
+        class="project-modal-close"
+        onclick="closeProject()"
+      >
+        <i class="bi bi-x-lg"></i>
+      </button>
+
+      <div
+        class="project-modal-icon"
+        id="modalIcon"
+      >
+        <i class="bi bi-laptop"></i>
+      </div>
+
+      <span
+        class="modal-category"
+        id="modalCategory"
+      >
+        Website
+      </span>
+
+      <h2 id="modalTitle">
+        Website Rekomendasi Laptop
+      </h2>
+
+      <p id="modalDescription">
+        Website yang dibuat untuk membantu pengguna
+        mencari laptop berdasarkan kebutuhan dan budget
+        yang dimiliki.
+      </p>
+
+      <div class="modal-detail">
+
+        <div>
+
+          <h5>
+            <i class="bi bi-code-slash"></i>
+            Teknologi
+          </h5>
+
+          <p id="modalTechnology">
+            HTML, CSS, JavaScript, Bootstrap
+          </p>
+
+        </div>
+
+        <div>
+
+          <h5>
+            <i class="bi bi-stars"></i>
+            Fitur
+          </h5>
+
+          <p id="modalFeature">
+            Pilihan kategori kebutuhan, input budget,
+            dan rekomendasi laptop.
+          </p>
+
+        </div>
+
+      </div>
+
+      <button
+        class="btn btn-green modal-close-button"
+        onclick="closeProject()"
+      >
+        Tutup
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <section id="contact" class="section contact-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <p>
+          KONTAK
+        </p>
+
+        <h2>
+          Hubungi Saya
+        </h2>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-8 mx-auto">
+
+          <div class="contact-box">
+
+            <div class="row">
+
+              <!-- CONTACT INFO -->
+
+              <div class="col-md-5 contact-info">
+
+                <h3>
+                  Mari Terhubung
+                </h3>
+
+                <p>
+                  Jika ingin berdiskusi mengenai project atau
+                  sekadar ingin menyapa, silakan hubungi saya.
+                </p>
+
+                <div class="contact-item">
+
+                  <i class="bi bi-envelope"></i>
+
+                  <div>
+
+                    <small>
+                      Email
+                    </small>
+
+                    <p>
+                      desti@gmail.com
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                  <i class="bi bi-geo-alt"></i>
+
+                  <div>
+
+                    <small>
+                      Lokasi
+                    </small>
+
+                    <p>
+                      Bandar Lampung, Indonesia
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- CONTACT FORM -->
+
+              <div class="col-md-7">
+
+                <form
+                  id="contactForm"
+                  action="proses_pesan.php"
+                  method="POST"
+                >
+
+                  <div class="mb-3">
+
+                    <label>
+                      Nama
+                    </label>
+
+                    <input
+                      type="text"
+                      name="nama"
+                      class="form-control"
+                      placeholder="Nama kamu"
+                      required
+                    >
+
+                  </div>
+
+                  <div class="mb-3">
+
+                    <label>
+                      Email
+                    </label>
+
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email kamu"
+                      required
+                    >
+
+                  </div>
+
+                  <div class="mb-3">
+
+                    <label>
+                      Pesan
+                    </label>
+
+                    <textarea
+                      name="pesan"
+                      class="form-control"
+                      rows="5"
+                      placeholder="Tulis pesan..."
+                      required
+                    ></textarea>
+
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-green w-100"
+                  >
+                    Kirim Pesan
+                  </button>
+
+                </form>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container text-center">
+
+      <h4>
+        PORT<span>.</span>
+      </h4>
+
+      <p>
+        Portfolio Website © 2026
+      </p>
+
+      <div class="social-icons">
+
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  <!-- JS -->
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
